@@ -343,7 +343,7 @@ section.steps .step-title {
     color: var(--color-step-title);
 }
 
-section.steps .card{
+section.steps .card {
     border: none !important;
 }
 
@@ -611,7 +611,7 @@ a.btn.acount {
 .accordion-header {
     cursor: pointer;
     padding: 1.25rem;
-    font-size: 14px;
+    font-size: 1.1rem !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
