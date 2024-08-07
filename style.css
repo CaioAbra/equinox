@@ -10,7 +10,7 @@
 
     --color-bg-btn-login: #FFFFFF;
     --color-bg-btn-register: radial-gradient(111.41% 70.52% at 68.01% 50%, #87F1FF 0%, #00B2FF 44.58%, #1235ED 100%);
-    ;
+
     --color-bg-gradient-login: linear-gradient(87.36deg, #F0A647 9.47%, #BA4C0E 128.61%);
     --color-bg-step-card: url('./src/img/Rectangle.svg');
 
@@ -366,6 +366,18 @@ section.steps .card.step-card .card-body {
     section.steps .card.step-card .card-body {
         padding-left: 2.5rem !important;
         padding-right: 1.7rem !important
+    }
+}
+
+@media (min-width: 768px) {
+    section.bg_0 .mockUpCell {
+        position: absolute;
+        right: 0;
+        padding-right: 0;
+    }
+
+    section.bg_0 .mockUpCell img.img-fluid {
+        width: 100%;
     }
 }
 
