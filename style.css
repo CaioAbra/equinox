@@ -58,7 +58,9 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'KotoriRose-Bold';
+    /* font-family: 'KotoriRose-Bold'; */
+    font-family: 'KotoriRose-Regular';
+    font-weight: 700;
 }
 
 span,
