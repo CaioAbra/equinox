@@ -417,6 +417,7 @@ section.numberOne .card {
 section.numberOne .card:hover {
     background: var(--color-bg-numberOne-card-hover);
     border: none !important;
+    color: var(--color-accordion-header);
 }
 
 section.mockUp svg,
