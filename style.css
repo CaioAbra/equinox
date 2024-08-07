@@ -395,10 +395,15 @@ section.numberOne .card {
     color: var(--color-white);
     /* border-radius: 2rem; */
     padding: 2rem;
-    min-height: 28rem;
     /* border-top: 2px solid var(--color-accordion-header-open); */
     margin-bottom: 1rem;
     transition: all .5s ease;
+}
+
+@media (min-width: 768px) {
+    section.numberOne .card {
+        min-height: 28rem;
+    }
 }
 
 section.numberOne .card:hover {
