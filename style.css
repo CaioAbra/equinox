@@ -58,14 +58,15 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: KotoriRose-Bold;
+    font-family: 'KotoriRose-Bold';
 }
 
 span,
 li,
 p,
 .card-text {
-    font-family: KotoriRose-Regular;
+    font-family: 'KotoriRose-Regular';
+    /* font-family: KotoriRose-Regular; */
 }
 
 html {
