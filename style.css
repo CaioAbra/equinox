@@ -194,7 +194,7 @@ nav a.btn-register {
 }
 
 nav a.btn-register:hover {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     background: var(--color-gradient);
     background-size: 600% 600%;
     background-position: right center;
