@@ -336,9 +336,10 @@ section.bg_0 .row-hero {
 }
 
 section.bg_0 main>.container {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     align-items: center;
     height: 100%;
+    margin-top: 4rem;
 }
 
 section.steps .step-title {

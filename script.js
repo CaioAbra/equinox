@@ -14,8 +14,8 @@ $('.accordion-header').click(function () {
     const target = $(this).data('target'); // Obtém o ID do item correspondente a partir do data-target
     const $body = $(target); // Seleciona o corpo do acordeão correspondente
     const $header = $(this); // Armazena o header clicado
-    var arrowDownSVG = '<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L12 20M12 20L5 13M12 20L19 13" stroke="currentColor" stroke-width="2" fill="none"/></svg>';
-    var arrowUpSVG = '<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22L12 4M12 4L5 11M12 4L19 11" stroke="currentColor" stroke-width="2" fill="none"/></svg>';
+    var arrowDownSVG = '<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.3589 5.1529L14.7969 5.1529L14.7969 20.525L12.2349 20.525L12.2349 23.087L14.7969 23.087L14.7969 25.649L17.3589 25.649L17.3589 23.087L19.9209 23.087L19.9209 20.525L17.3589 20.525L17.3589 5.1529ZM22.4829 17.963L22.4829 20.525L19.9209 20.525L19.9209 17.963L22.4829 17.963ZM22.4829 17.963L22.4829 15.4009L25.0449 15.4009L25.0449 17.963L22.4829 17.963ZM9.67286 17.963L9.67286 20.525L12.2349 20.525L12.2349 17.963L9.67286 17.963ZM9.67286 17.963L9.67286 15.4009L7.11085 15.4009L7.11085 17.963L9.67286 17.963Z" fill="currentColor" /></svg>';
+    var arrowUpSVG = '<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path transform="rotate(180 16 16)" d="M17.3589 5.1529L14.7969 5.1529L14.7969 20.525L12.2349 20.525L12.2349 23.087L14.7969 23.087L14.7969 25.649L17.3589 25.649L17.3589 23.087L19.9209 23.087L19.9209 20.525L17.3589 20.525L17.3589 5.1529ZM22.4829 17.963L22.4829 20.525L19.9209 20.525L19.9209 17.963L22.4829 17.963ZM22.4829 17.963L22.4829 15.4009L25.0449 15.4009L25.0449 17.963L22.4829 17.963ZM9.67286 17.963L9.67286 20.525L12.2349 20.525L12.2349 17.963L9.67286 17.963ZM9.67286 17.963L9.67286 15.4009L7.11085 15.4009L7.11085 17.963L9.67286 17.963Z" fill="currentColor" /></svg>';
 
 
     // Verifica se o corpo está aberto
