@@ -466,7 +466,7 @@ footer p.direitos {
 }
 
 footer .footer-text-align-logo {
-    align-self: center;
+    align-self: flex-start;
 
     @media screen and (max-width:768px) {
         text-align-last: center;
