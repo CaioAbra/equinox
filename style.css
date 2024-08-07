@@ -175,7 +175,7 @@ nav a.btn-register {
     background: var(--color-bg-btn-register);
     border-color: var(--color-bg-btn-register);
     color: var(--color-btn-register-text);
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding: 16px 45px;
 
     @media screen and (max-width:768px) {
@@ -341,6 +341,10 @@ section.bg_0 main>.container {
 
 section.steps .step-title {
     color: var(--color-step-title);
+}
+
+section.steps .card{
+    border: none !important;
 }
 
 section.steps .card.step-card {
