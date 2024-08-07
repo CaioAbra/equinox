@@ -522,6 +522,7 @@ footer ul li a.link-media-social {
 footer ul li a.link-media-social:hover {
     background: var(--color-accordion-header-open);
     /* border-radius: .5rem; */
+    padding: .5rem;
     color: var(--color-bg-navbar-active) !important;
     fill: var(--color-bg-navbar-active);
     display: inline-block;
