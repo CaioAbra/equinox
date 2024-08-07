@@ -219,7 +219,7 @@ nav a.btn-register:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 .brand {
