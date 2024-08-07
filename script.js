@@ -14,6 +14,9 @@ $('.accordion-header').click(function () {
     const target = $(this).data('target'); // Obtém o ID do item correspondente a partir do data-target
     const $body = $(target); // Seleciona o corpo do acordeão correspondente
     const $header = $(this); // Armazena o header clicado
+    var arrowDownSVG = '<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L12 20M12 20L5 13M12 20L19 13" stroke="black" stroke-width="2" fill="none"/></svg>';
+    var arrowUpSVG = '<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22L12 4M12 4L5 11M12 4L19 11" stroke="black" stroke-width="2" fill="none"/></svg>';
+
 
     // Verifica se o corpo está aberto
     if ($body.hasClass('open')) {
@@ -21,19 +24,22 @@ $('.accordion-header').click(function () {
         $body.slideUp(300, function () {
             $body.removeClass('open'); // Remove a classe "open" do corpo
             $header.removeClass('open'); // Remove a classe "open" do header correspondente
-            $header.find('.icon').text('+'); // Muda ícone para +
+            // $header.find('.icon').text('+'); // Muda ícone para +
+            $header.find('.icon').html(arrowDownSVG); // Muda ícone para +
         });
     } else {
         // Se não estiver aberto, fecha todos os outros
         $('.accordion-body').slideUp(300).removeClass('open'); // Fecha todos os corpos do acordeão
         $('.accordion-header').removeClass('open'); // Remove a classe "open" de todos os headers
-        $('.accordion-header .icon').text('+'); // Reseta todos os ícones para +
+        // $('.accordion-header .icon').text('+'); // Reseta todos os ícones para +
+        $('.accordion-header .icon').html(arrowDownSVG); // Reseta todos os ícones para +
 
         // Abre o corpo atual
         $body.slideDown(300, function () {
             $body.addClass('open'); // Adiciona a classe "open" ao corpo atual
             $header.addClass('open'); // Adiciona a classe "open" ao header correspondente
             $header.find('.icon').text('-'); // Muda ícone para -
+            $header.find('.icon').html(arrowUpSVG); // Muda ícone para -
         });
     }
 });
