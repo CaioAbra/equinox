@@ -403,6 +403,7 @@ section.numberOne .card {
     /* border-top: 2px solid var(--color-accordion-header-open); */
     margin-bottom: 1rem;
     transition: all .5s ease;
+    border: none !important;
 }
 
 @media (min-width: 768px) {
