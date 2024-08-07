@@ -516,7 +516,7 @@ footer ul li a.link-media-social {
     border-radius: .5rem;
     padding: .5rem;
     transition: all .5s;
-    margin-left: .5rem;
+    /* margin-left: .5rem; */
 }
 
 footer ul li a.link-media-social:hover {
