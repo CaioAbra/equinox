@@ -80,8 +80,8 @@ body {
 }
 
 nav {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
 }
 
 nav .brand {
