@@ -329,7 +329,7 @@ nav a.btn-register:hover {
     }
 }
 
-/* section.bg_0 {}
+section.bg_0 {}
 
 section.bg_0 .row-hero {
     align-items: center;
@@ -339,38 +339,7 @@ section.bg_0 main>.container {
     min-height: 100vh;
     align-items: center;
     height: 100%;
-    /* margin-top: 4rem; */
 }
-
-*/ section.bg_0 {
-    padding-top: 1rem;
-    /* Reduzir o padding superior do container principal */
-}
-
-section.bg_0 .row-hero {
-    align-items: center;
-}
-
-section.bg_0 main>.container {
-    min-height: 80vh;
-    /* Reduzir a altura mínima do container principal */
-    align-items: center;
-    height: 100%;
-    /* margin-top: 4rem; */
-    padding-top: 1rem;
-    /* Ajustar o padding superior */
-    padding-bottom: 1rem;
-    /* Ajustar o padding inferior */
-}
-
-header {
-    padding-top: 0.5rem;
-    /* Ajustar o padding superior do header */
-    padding-bottom: 0.5rem;
-    /* Ajustar o padding inferior do header */
-}
-
-
 
 section.steps .step-title {
     color: var(--color-step-title);
@@ -447,13 +416,12 @@ section.numberOne .card {
 section.numberOne .card:hover {
     background: var(--color-bg-numberOne-card-hover);
     border: none !important;
+    color: var(--color-accordion-header);
 }
 
-section.numberOne .card:hover p {
-    color: #FFFFFF !important;
+section.numberOne .card:hover {
+    color: #FFFFFF;
 }
-
-
 
 section.mockUp svg,
 section.mockUp img {
