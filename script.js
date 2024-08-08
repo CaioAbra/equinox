@@ -133,7 +133,7 @@ $(window).scroll(function () {
     if (viewportMiddle > sectionOffset && viewportMiddle < sectionOffset + sectionHeight) {
         if ($(window).width() < 768) {
             image.css('transform', 'scale(1.5) translateY(50%) translateX(40%)'); // Transforma a imagem em telas menores
-            computer.css('transform', 'scale(1)');
+            computer.css('transform', 'scale(1.3)');
         } else {
             image.css('transform', 'scale(.7) translateY(40%) translateX(50%)'); // Transforma a imagem em telas maiores
             computer.css('transform', 'scale(.9)');

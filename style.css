@@ -482,6 +482,12 @@ section.mockUp img.computer {
     transform: scale(.9);
 }
 
+@media screen and (max-width:768px) {
+    section.mockUp img.computer{
+        transform: scale(1.3);
+    }
+}
+
 section.mockUp img.efeito {
     /* width: 100%; */
     max-width: 15rem;
