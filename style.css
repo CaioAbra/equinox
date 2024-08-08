@@ -419,7 +419,7 @@ section.numberOne .card:hover {
     color: var(--color-accordion-header);
 }
 
-section.numberOne .card:hover {
+section.numberOne .card:hover p{
     color: #FFFFFF;
 }
 
