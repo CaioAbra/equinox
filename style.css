@@ -329,7 +329,7 @@ nav a.btn-register:hover {
     }
 }
 
-section.bg_0 {}
+/* section.bg_0 {}
 
 section.bg_0 .row-hero {
     align-items: center;
@@ -339,7 +339,64 @@ section.bg_0 main>.container {
     min-height: 100vh;
     align-items: center;
     height: 100%;
+} */
+
+
+section.bg_0 {
+    padding-top: 1rem;
+    overflow-x: hidden;
+    max-width: 100vw;
+    /* Reduzir o padding superior do container principal */
 }
+
+section.bg_0 .row-hero {
+    align-items: center;
+}
+
+section.bg_0 main>.container {
+    min-height: 60vh;
+    align-items: center;
+    height: 100%;
+    /* margin-top: 4rem; */
+    /* padding-top: 1rem; */
+    padding-bottom: 6vh;
+}
+
+section.bg_0 header {
+    padding-top: 0.5rem;
+    /* Ajustar o padding superior do header */
+    padding-bottom: 0.5rem;
+    /* Ajustar o padding inferior do header */
+}
+
+@media (min-width: 768px) {
+    section.bg_0 .mockUpCell img.img-fluid {
+        width: 100%;
+        transform: translateX(6vw);
+    }
+}
+
+@media (min-width: 1366px) {
+    section.bg_0 .mockUpCell img.img-fluid {
+        width: 100%;
+        transform: translateX(15vw);
+    }
+}
+
+
+/* @media (min-width: 768px) {
+    section.bg_0 .mockUpCell {
+        position: absolute;
+        right: 0;
+        padding-right: 0;
+    }
+
+    section.bg_0 .mockUpCell img.img-fluid {
+        width: 100%;
+    }
+} */
+
+
 
 section.steps .step-title {
     color: var(--color-step-title);
@@ -375,17 +432,6 @@ section.steps .card.step-card .card-body {
     }
 }
 
-@media (min-width: 768px) {
-    section.bg_0 .mockUpCell {
-        position: absolute;
-        right: 0;
-        padding-right: 0;
-    }
-
-    section.bg_0 .mockUpCell img.img-fluid {
-        width: 100%;
-    }
-}
 
 /* section.premium {} */
 
@@ -419,7 +465,7 @@ section.numberOne .card:hover {
     color: var(--color-accordion-header);
 }
 
-section.numberOne .card:hover p{
+section.numberOne .card:hover p {
     color: #FFFFFF;
 }
 
